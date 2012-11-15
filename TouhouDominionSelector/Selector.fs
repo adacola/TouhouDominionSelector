@@ -66,31 +66,40 @@ module Selector =
 
     /// 任意のカードプロパティごとの最少枚数と最多枚数を指定するカードリストフィルタです。
     let countFilter propertySelector counts (cards : Card list) =
-        let countDict = cards |> Seq.countBy propertySelector |> dict
+        let countDict = cards |> Seq.collect propertySelector |> Seq.countBy id |> dict
         counts |> List.forall (fun (property, minCount, maxCount) ->
             let count = match countDict.TryGetValue property with true, c -> c | false, _ -> 0
             minCount <= count && count <= maxCount)
 
-    /// カードの効果ごとに最少枚数と最多枚数を指定するカードリストフィルタです。
-    let effectFilter = countFilter (fun { Effect = e } -> e)
+    /// カードの種類ごとに最少枚数と最多枚数を指定するカードリストフィルタです。
+    let kindFilter = countFilter (fun { Kinds = ks } -> ks)
+
+    /// カードの特殊効果ごとに最少枚数と最多枚数を指定するカードリストフィルタです。
+    let effectFilter = countFilter (fun { Effects = es } -> es)
 
     /// カードのコストごとに最少枚数と最多枚数を指定するカードリストフィルタです。
-    let costFilter = countFilter (fun { Cost = c } -> c)
+    let costFilter = countFilter (fun { Cost = c } -> [c])
 
     /// アクション追加回数ごとに最少枚数と最多枚数を指定するカードリストフィルタです。
-    let actionIncrementFilter = countFilter (fun { ActionIncrement = ai } -> ai)
+    let actionIncrementFilter = countFilter (fun { ActionIncrement = ai } -> [ai])
 
     /// カードを引く枚数ごとに最少枚数と最多枚数を指定するカードリストフィルタです。
-    let drawingCardFilter = countFilter (fun { DrawingCard = dc } -> dc)
+    let drawingCardFilter = countFilter (fun { DrawingCardCount = dc } -> [dc])
+
+    /// 購入フェイズでのカード購入追加枚数ごとに最少枚数と最多枚数を指定するカードリストフィルタです。
+    let buyingIncrementFilter = countFilter (fun { BuyingIncrement = bi } -> [bi])
 
     /// 購入フェイズでのコスト増分ごとに最少枚数と最多枚数を指定するカードリストフィルタです。
-    let costIncrementFilter = countFilter (fun { CostIncrement = ci } -> ci)
+    let costIncrementFilter = countFilter (fun { CostIncrement = ci } -> [ci])
 
     /// カードを廃棄する効果のあるカードの最少枚数と最多枚数を指定するカードリストフィルタです。
-    let canScrapFilter (minCount, maxCount) = countFilter (fun { CanScrap = cs } -> cs) [true, minCount, maxCount]
+    let canScrapFilter (minCount, maxCount) = countFilter (fun { CanScrap = cs } -> [cs]) [true, minCount, maxCount]
 
     /// マイナスカードを押し付ける効果のあるカードの最少枚数と最多枚数を指定するカードリストフィルタです。
-    let canForceMinusFilter (minCount, maxCount) = countFilter (fun { CanForceMinus = cfm } -> cfm) [true, minCount, maxCount]
+    let canForceMinusFilter (minCount, maxCount) = countFilter (fun { CanForceCurse = cfm } -> [cfm]) [true, minCount, maxCount]
+
+    /// 褒賞カードを獲得する効果のあるカードの最少枚数と最多枚数を指定するカードリストフィルタです。
+    let canWinPrizeFilter (minCount, maxCount) = countFilter (fun { CanWinPrize = cwp } -> [cwp]) [true, minCount, maxCount]
 
     /// キャラクターを指定するカードリストフィルタです。
     let characterFilter characters cards =

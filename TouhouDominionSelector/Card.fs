@@ -1,22 +1,22 @@
 ﻿namespace Wasabi.TouhouDominionSelector
 
-/// カードの効果の種類
-type CardEffect =
-    /// 普通のアクション
+/// カードの種類
+type CardKind =
+    /// アクションカード
     | Action
-    /// アクション・アタック
-    | Attack
-    /// アクション・リアクション
-    | Reaction
-    /// アクション・持続
-    | Staying
-    /// リソース
+    /// リソースカード
     | Resource
-with
-    /// 文字列からCardEffectに変換します。
-    static member OfString = function
-        | "Action" -> Action | "Attack" -> Attack | "Reaction" -> Reaction | "Staying" -> Staying | "Resource" -> Resource
-        | x -> x |> sprintf "不正な値が指定されました : %s" |> invalidArg "effectString"
+    /// 勝利点カード
+    | Victory
+
+/// カードの特殊効果
+type CardEffect =
+    /// アタック
+    | Attack
+    /// リアクション
+    | Reaction
+    /// 持続
+    | Staying
 
 /// カードのプロパティ
 type Card = {
@@ -26,18 +26,24 @@ type Card = {
     Series : string
     /// 購入時のコスト
     Cost : int
-    /// カードの効果の種類
-    Effect : CardEffect
+    /// カードの種類
+    Kinds : CardKind[]
+    /// カードの特殊効果
+    Effects : CardEffect[]
     /// アクション追加回数（確定分のみ）
     ActionIncrement : int
     /// カードを引く枚数（確定分のみ）
-    DrawingCard : int
+    DrawingCardCount : int
+    /// 購入フェイズでのカード購入追加枚数（確定分のみ）
+    BuyingIncrement : int
     /// 購入フェイズでのコスト増分（確定分のみ）
     CostIncrement : int
     /// カードを廃棄する効果のあるカードかどうか
     CanScrap : bool
     /// マイナスカードを押し付ける効果のあるカードかどうか
-    CanForceMinus : bool
+    CanForceCurse : bool
+    /// 褒賞カードを獲得する効果のあるカードかどうか
+    CanWinPrize : bool
     /// カードに描かれているキャラクターのリスト
     Characters : string[]
     /// 本家ドミニオンでの対応するカードの名前。本家ドミニオンに対応するカードがない場合は空文字列。
