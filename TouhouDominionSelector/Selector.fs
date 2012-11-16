@@ -40,7 +40,7 @@ module Selector =
         let select filters cards =
             let initialCount = trialCount
             let rec select filters cards = function
-                | 0 -> printfn "むりぽ"; select (List.tail filters) cards initialCount
+                | 0 -> select (List.tail filters) cards initialCount
                 | count ->
                     let selectedCards = cards |> selectRandom
                     if filters |> List.forall ((|>) selectedCards) then selectedCards else count - 1 |> select filters cards
