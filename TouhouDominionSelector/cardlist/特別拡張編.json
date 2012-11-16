@@ -1,0 +1,428 @@
+﻿[
+  {
+    "Name": "小さなスイートポイズン「メディスン・メランコリー」",
+    "Series": "特別拡張編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 2,
+        "IsAttack": false,
+        "IsReaction": false,
+        "IsStaying": true
+      }
+    ],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["メディスン・メランコリー"],
+    "DominionName": "灯台(海辺)",
+    "Description": "現在と、あなたの次のターンの開始時に＋① このカードがプレイエリアに出ているかぎり、 他のプレイヤーがアタックカードを使用しても、 あなたはそのカードの影響を受けない。"
+  },
+  {
+    "Name": "輝ける日の光「サニーミルク」",
+    "Series": "特別拡張編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["サニーミルク"],
+    "DominionName": "占い師(収穫祭)",
+    "Description": "他のプレイヤーは全員、自分の山札から 勝利点またはマイナスカード１枚が公開されるまでカードを公開する。 公開した勝利点またはマイナスカードを 自分の山札の一番上に置き、他の公開したカードは捨て札にする。"
+  },
+  {
+    "Name": "静かなる月の光「ルナチャイルド」",
+    "Series": "特別拡張編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 2,
+        "IsAttack": false,
+        "IsReaction": false,
+        "IsStaying": true
+      }
+    ],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 1,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["ルナチャイルド"],
+    "DominionName": "漁村(海辺)",
+    "Description": "あなたの次のターンの開始時に、 ＋１アクション ＋①"
+  },
+  {
+    "Name": "降り注ぐ星の光「スターサファイア」",
+    "Series": "特別拡張編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["スターサファイア"],
+    "DominionName": "画策(異郷)",
+    "Description": "このターンのクリーンアップフェイズの開始時に、 あなたはプレイエリアに出ているアクションカード１枚を選んでも良い。 このターンあなたがそのカードをプレイエリアから捨て札に置く場合、 そのカードをあなたのデッキの一番上に置く。"
+  },
+  {
+    "Name": "無縁塚",
+    "Series": "特別拡張編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 2,
+        "IsAction": false,
+        "IsResource": false,
+        "IsVictory": true
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 1,
+        "IsAttack": false,
+        "IsReaction": true,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": [],
+    "DominionName": "坑道(異郷)",
+    "Description": "勝利点　２ あなたがクリーンアップフェイズ以外の機会に このカードを捨て札にするとき、 あなたはこのカードを公開してもよい。 そうした場合、「御神酒」１枚を獲得する。"
+  },
+  {
+    "Name": "三途の水先案内人「小野塚小町」",
+    "Series": "特別拡張編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 1,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["小野塚小町"],
+    "DominionName": "義賊(異郷)",
+    "Description": "このカードを購入または使用するとき、 他のプレイヤーは全員自分のデッキの上から２枚のカードを公開し、 公開された「奉納米」または「御神酒」１枚をあなたが選んで廃棄し、 残りを捨て札にする。リソースカードを１枚も公開しなかったプレイヤーは、 「お賽銭」１枚を獲得する。あなたは廃棄したカードを獲得する。"
+  },
+  {
+    "Name": "美しき緋の衣「永江衣玖」",
+    "Series": "特別拡張編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["永江衣玖"],
+    "DominionName": "鉄工所(陰謀)",
+    "Description": "コスト最大④までのカード１枚を獲得する。 獲得したカードが… アクションカードの場合、　＋１　アクション リソースカードの場合、　＋① 勝利点カードの場合、　＋１　カードを引く"
+  },
+  {
+    "Name": "非想非非想天の娘「比那名居天子」",
+    "Series": "特別拡張編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 1,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["比那名居天子"],
+    "DominionName": "男爵(陰謀)",
+    "Description": "あなたは、「博麗神社～間借りの一画～」１枚を捨て札にしてもよい。 そうした場合　＋④ 捨て札にしなかった場合、「博麗神社～間借りの一画～」１枚を獲得する。"
+  },
+  {
+    "Name": "片腕有角の仙人「茨木華扇」",
+    "Series": "特別拡張編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["茨木華扇"],
+    "DominionName": "香辛料商人(異郷)",
+    "Description": "あなたは自分の手札のリソースカード１枚を廃棄してもよい。 そうした場合、次のうち１つを選ぶ ：「＋２　カードを引く、　＋１　アクション」 ；「＋②、　＋１　カードを購入」"
+  },
+  {
+    "Name": "有頂天",
+    "Series": "特別拡張編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 2,
+        "IsAction": false,
+        "IsResource": false,
+        "IsVictory": true
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": [],
+    "DominionName": "シルクロード(異郷)",
+    "Description": "あなたのデッキにある勝利点カード４枚(端数切り捨て）につき１勝利点を得る。"
+  },
+  {
+    "Name": "伝統の幻想ブン屋「射命丸文」",
+    "Series": "特別拡張編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 2,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["射命丸文"],
+    "DominionName": "保管庫(繁栄)",
+    "Description": "好きな枚数のカードを捨て札にする。 捨て札にしたカード１枚につき　＋① 他のプレイヤーは全員、カードを２枚捨て札にしてもよい。 そうした場合、そのプレイヤーはカード１枚を引く。"
+  },
+  {
+    "Name": "四季のフラワーマスター「風見幽香」",
+    "Series": "特別拡張編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 3,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["風見幽香"],
+    "DominionName": "大衆(繁栄)",
+    "Description": "他のプレイヤーは全員、自分の山札の上から３枚のカードを公開し、 公開したアクションとリソースカードを捨て札にし、 残りのカードは好きな順番で山札の上に戻す。"
+  },
+  {
+    "Name": "楽園の最高裁判長「四季映姫・ヤマザナドゥ」",
+    "Series": "特別拡張編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["四季映姫・ヤマザナドゥ"],
+    "DominionName": "改良(陰謀)",
+    "Description": "あなたの手札からカード１枚を廃棄する。 廃棄したカードよりコストが①多いカード１枚を獲得する。"
+  },
+  {
+    "Name": "萃まる夢、幻、そして百鬼夜行「伊吹萃香」",
+    "Series": "特別拡張編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["伊吹萃香"],
+    "DominionName": "値切り屋(異郷)",
+    "Description": "このカードがプレイエリアに出ている限り、 カード１枚を購入するとき、 購入したカードよりもコストが少ない 勝利点以外のカード１枚を獲得する。"
+  },
+  {
+    "Name": "今どきの念写記者「姫海棠はたて」",
+    "Series": "特別拡張編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["姫海棠はたて"],
+    "DominionName": "地図職人(異郷)",
+    "Description": "あなたのデッキの上から４枚のカードを見る。 その中から好きな枚数を捨て札にする。 残りを好きな順番でデッキの上に置く。"
+  },
+  {
+    "Name": "酒虫の壺",
+    "Series": "特別拡張編",
+    "Cost": 6,
+    "Kinds": [
+      {
+        "Tag": 1,
+        "IsAction": false,
+        "IsResource": true,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": [],
+    "DominionName": "",
+    "Description": "② このカードがプレイエリアに出ているかぎり、 あなたは勝利点カード１枚を購入したとき、 「御神酒」１枚を獲得する。"
+  }
+]

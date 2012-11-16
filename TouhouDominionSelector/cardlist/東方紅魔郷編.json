@@ -1,0 +1,675 @@
+﻿[
+  {
+    "Name": "凍符「パーフェクトフリーズ」",
+    "Series": "東方紅魔郷編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 1,
+        "IsAttack": false,
+        "IsReaction": true,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 2,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["チルノ"],
+    "DominionName": "堀(基本)",
+    "Description": "他のプレイヤーがアタックアクションを使ったとき、手札からこのカードを公開してもよい。そうした場合あなたはそのアタックアクションの影響を受けない ※備考 相手のアタックカードの宣言後にこのカードを他のプレイヤーに見せる事が出来る、 その後手札に戻す（捨て札にはしない） 相手が効果の種類を選ぶタイプのアタックカードを使用した場合、 その効果を選択するまえにリアクション宣言しなければならない 自分へのアタックの効果を受けなくなるだけなので、 他のプレイヤーへの効果、また、 アタック宣言したプレイヤーへの効果を消す事は出来ない。 「アタック」の効果を持つカードにしかリアクション出来ない"
+  },
+  {
+    "Name": "闇符「ディマーケイション」",
+    "Series": "東方紅魔郷編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["ルーミア"],
+    "DominionName": "地下貯蔵庫(基本)",
+    "Description": "手札のカードを好きな枚数捨て札にして、同じ枚数のカードを引く 備考※ 捨てた枚数分カードを引く際に、 山札が足りない、足りなくなった場合は、 ディマーケイション使用時に捨てたカードも含めて 山札を作り直す。"
+  },
+  {
+    "Name": "宵闇の妖怪「ルーミア」",
+    "Series": "東方紅魔郷編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["ルーミア"],
+    "DominionName": "手先(陰謀)",
+    "Description": "次のうち二つを選ぶ：「+1　カードを引く」；「+1　アクション」 ；「+1　カードを購入」；「+①」　（異なる物を二つ選ばなければならない） ※備考 先に選んだ二つの効果を宣言してから処理を開始する 例 「＋１カードを引く」を選び 引いたカードを見てから 残り１つの効果を選ぶと言った使い方は出来ない"
+  },
+  {
+    "Name": "華人小娘「紅美鈴」",
+    "Series": "東方紅魔郷編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 1,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["紅美鈴"],
+    "DominionName": "木こり(基本)",
+    "Description": ""
+  },
+  {
+    "Name": "奇術「ミスディレクション」",
+    "Series": "東方紅魔郷編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 2,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["十六夜咲夜"],
+    "DominionName": "仮面舞踏会(陰謀)",
+    "Description": "各プレイヤーは、自分の手札のカード１枚を選び、左隣のプレイヤーに同時に渡す。その後、あなたは自分の手札のカード1枚を廃棄しても良い。 ※備考 カードを隣のプレイヤーに渡す際は全員同時に、 他プレイヤーに見えないよう伏せて渡す また、受け取るまで相手のカードを見てはいけない"
+  },
+  {
+    "Name": "湖上の氷精「チルノ」",
+    "Series": "東方紅魔郷編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["チルノ"],
+    "DominionName": "宰相(基本)",
+    "Description": "あなたの山札のカード全てを、即座に捨て札に置く事が出来る。 ※備考 山札を捨て札に送る効果を使用した際、 山札の内容確認や並び替えをしてはいけない。"
+  },
+  {
+    "Name": "大妖精",
+    "Series": "東方紅魔郷編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["大妖精"],
+    "DominionName": "工房(基本)",
+    "Description": "コスト最大④までのカードを1枚獲得する。"
+  },
+  {
+    "Name": "魔法の森",
+    "Series": "東方紅魔郷編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["霧雨魔理沙"],
+    "DominionName": "村(基本)",
+    "Description": ""
+  },
+  {
+    "Name": "悪魔の妹「フランドール・スカーレット」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 1,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["フランドール・スカーレット"],
+    "DominionName": "引揚水夫(海辺)",
+    "Description": "あなたの手札のカード1枚を廃棄する。そのカードのコスト分の〇（リソース）を得る。"
+  },
+  {
+    "Name": "火水木金土符「賢者の石」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["パチュリー・ノーレッジ"],
+    "DominionName": "共謀者(陰謀)",
+    "Description": "あなたがこのターンに（このカードも含めて）3枚以上のアクションを使用している場合 +1　カードを引く、+1　アクション ※備考 このカードを使用した時点で３枚以上（このカード含め） のアクションに達していない場合は このカードの効果、「＋１カードを引く、＋１アクション」は発動しません このカードの処理後に別のカードに依って アクションを使用したカードが３枚以上に達しても、 このカードの効果、「＋１カードを引く、＋１アクション」は発動しません"
+  },
+  {
+    "Name": "奇妙な魔法使い「霧雨魔理沙」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["霧雨魔理沙"],
+    "DominionName": "泥棒(基本)",
+    "Description": "他のプレイヤーは全員、自分の山札の上から２枚のカードを公開する。リソースカードを公開した場合、その中の１枚をあなたが選んで廃棄する。あなたはここで廃棄したカードのうち好きな枚数を獲得できる。他の公開したカードはすべて捨て札にする。 ※備考 このカードの効果で廃棄されたカードは好きな枚数を獲得出来る 例 他プレイヤー３人全員から一枚づつリソースを廃棄出来た場合、 ・３枚全て獲得 ・２枚獲得 ・１枚のみ獲得 ・１枚も獲得しない 等の選択が出来る このカードの処理時に相手の山札が足りない場合 例 相手の山札が残り１枚 →残り１枚を公開、 　捨て札をシャッフルし山札を作り直し、更に１枚公開 相手の山札が０枚 →捨て札をシャッフルし山札を作り直し、２枚公開"
+  },
+  {
+    "Name": "恋符「マスタースパーク」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["霧雨魔理沙"],
+    "DominionName": "民兵(基本)",
+    "Description": "他のプレイヤーは全員、手札が３枚になるまでカードを捨て札にする。"
+  },
+  {
+    "Name": "紅魔館地下室",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 2,
+        "IsAction": false,
+        "IsResource": false,
+        "IsVictory": true
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["フランドール・スカーレット"],
+    "DominionName": "庭園(基本)",
+    "Description": "山札のカード１０枚につき勝利点１を得る ※備考 ３人以上でプレイする際は１２枚 ２人でプレイする際は８枚をサプライに置く。"
+  },
+  {
+    "Name": "彩符「彩光乱舞」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["紅美鈴"],
+    "DominionName": "密偵(基本)",
+    "Description": "各プレイヤー（あなたも含む）は、自分の山札の一番上のカードを公開し、そのカードを捨て札にするかそのまま戻すかをあなたが選ぶ。 ※備考 自分の山札を公開する前に、 「＋１カードを引く」 の処理を忘れないこと。"
+  },
+  {
+    "Name": "知識と日陰の少女「パチュリー・ノーレッジ」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 3,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["パチュリー・ノーレッジ"],
+    "DominionName": "鍛冶屋(基本)",
+    "Description": ""
+  },
+  {
+    "Name": "ミニ八卦炉",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["霧雨魔理沙"],
+    "DominionName": "改築(基本)",
+    "Description": "あなたの手札のカードを1枚廃棄する。廃棄したカードよりコストが最大②多いカード１枚を獲得する。 ※備考 このカードの効果で獲得するカードのコストは 廃棄したカード＋２の数値と同コストのカードでも、 それ以下のコストのカードでも良い このカードは使用時に手札から公開している為 廃棄の対象には出来ない 廃棄するカードがない場合はカードを獲得出来ない。"
+  },
+  {
+    "Name": "夢符「封魔陣」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["博麗霊夢"],
+    "DominionName": "祝宴(基本)",
+    "Description": "このカードを廃棄する。コスト⑤以下のカード１枚を獲得する。"
+  },
+  {
+    "Name": "霊符「夢想封印」",
+    "Series": "東方紅魔郷編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["博麗霊夢"],
+    "DominionName": "役人(基本)",
+    "Description": "「奉納米」１枚を獲得し、あなたの山札の上に置く。他のプレイヤーは全員、自分の手札から勝利点カード１枚を公開し、自分の山札の上に置く。（手札に勝利点カードが無い場合、手札を公開する）"
+  },
+  {
+    "Name": "禁忌「レーヴァテイン」",
+    "Series": "東方紅魔郷編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 2,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": true,
+    "CanWinPrize": false,
+    "Characters": ["フランドール・スカーレット"],
+    "DominionName": "魔女(基本)",
+    "Description": "他のプレイヤーは全員、マイナスカードを１枚ずつ獲得する。 ※備考 カードの効果が適用される時に サプライのマイナスカードが全員分に足りない場合は 自分の左隣のプレイヤーから順に、 サプライのマイナスカードが尽きるまで一枚づつ渡します。"
+  },
+  {
+    "Name": "小悪魔",
+    "Series": "東方紅魔郷編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 2,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["小悪魔"],
+    "DominionName": "研究所(基本)",
+    "Description": ""
+  },
+  {
+    "Name": "紅魔館のメイド「十六夜咲夜」",
+    "Series": "東方紅魔郷編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 1,
+    "CostIncrement": 1,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["十六夜咲夜"],
+    "DominionName": "市場(基本)",
+    "Description": ""
+  },
+  {
+    "Name": "信仰を量る賽銭箱",
+    "Series": "東方紅魔郷編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["博麗霊夢"],
+    "DominionName": "書庫(基本)",
+    "Description": "あなたの手札が７枚になるまでカードを引く。この方法で引いたアクションカードを脇においても良い。（７枚には数えない）脇に置いたカードは、このアクションの後、捨て札にする。 ※備考 効果の処理中に山札が尽きた場合、 捨て札をシャッフルして山札を作り直しカードを引く その際、脇に置いたカードは混ぜないこと。 （このカードの手札７枚まで引く効果の処理は 一度に全て引かず、一枚づつカードを引き、 アクションカードだった場合に随時脇に置くかどうかを処理した方がトラブルが少ないです）"
+  },
+  {
+    "Name": "神槍「スピア・ザ・グングニル」",
+    "Series": "東方紅魔郷編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["レミリア・スカーレット"],
+    "DominionName": "寵臣(陰謀)",
+    "Description": "次のうち一つを選ぶ：「②」　；「あなたは手札全てを捨て札にし、+4　カードを引く。そして手札が５枚以上の他のプレイヤーは全員、自分の手札を捨て札にし、カードを４枚引く。」 ※備考 リアクションカードを使う場合は 神槍「スピア・ザ・グングニル」を使用したプレイヤーが どちらの効果を使うか宣言する前にリアクション宣言してください。"
+  },
+  {
+    "Name": "永遠に紅い幼き月「レミリア・スカーレット」",
+    "Series": "東方紅魔郷編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 4,
+    "BuyingIncrement": 1,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["レミリア・スカーレット"],
+    "DominionName": "議事堂(基本)",
+    "Description": "他のプレイヤーは全員、カードを１枚引く。"
+  },
+  {
+    "Name": "博麗神社の巫女さん「博麗霊夢」",
+    "Series": "東方紅魔郷編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 1,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["博麗霊夢"],
+    "DominionName": "祝祭(基本)",
+    "Description": ""
+  },
+  {
+    "Name": "九代目阿礼乙女「稗田阿求」",
+    "Series": "東方紅魔郷編 PRカード",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["稗田阿求"],
+    "DominionName": "弟子(錬金術)",
+    "Description": "あなたの手札のカードを１枚廃棄する。そのカードのコスト〇につき、+1　カードを引く。"
+  }
+]

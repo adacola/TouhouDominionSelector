@@ -1,0 +1,637 @@
+﻿[
+  {
+    "Name": "地上の兎「因幡てゐ」",
+    "Series": "東方永夜抄編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["因幡てゐ"],
+    "DominionName": "公爵夫人(異郷)",
+    "Description": "各プレイヤー（あなたも含む）は 自分のデッキの一番上のカードを見て、 そのカードを捨て札にするかそのまま戻すかをする。 このカードを使用しているゲームで 「迷いの竹林～路傍の石仏～」 を獲得したとき、「地上の兎「因幡てゐ」」１枚を 獲得しても良い。"
+  },
+  {
+    "Name": "闇に蠢く光の蟲「リグル・ナイトバグ」",
+    "Series": "東方永夜抄編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["リグル・ナイトバグ"],
+    "DominionName": "真珠採り(海辺)",
+    "Description": "貴方のデッキの一番下のカードを見る。 あなたは、そのカ－ドをデッキの一番上に置いてもよい。"
+  },
+  {
+    "Name": "狂気の月の兎「鈴仙・優曇華院・イナバ」",
+    "Series": "東方永夜抄編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["鈴仙・優曇華院・イナバ"],
+    "DominionName": "願いの井戸(陰謀)",
+    "Description": "カードを１枚指定する。 貴方のデッキの一番上のカードを公開する。 公開したカードが指定したカードの場合、 それをあなたの手札に加える。"
+  },
+  {
+    "Name": "国符「三種の神器」",
+    "Series": "東方永夜抄編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["上白沢慧音"],
+    "DominionName": "執事(陰謀)",
+    "Description": "次のうち１つを選ぶ： 「＋２カードを引く」； 「＋②」； 「あなたの手札から２枚のカードを廃棄する」"
+  },
+  {
+    "Name": "散符「真実の月」",
+    "Series": "東方永夜抄編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["鈴仙・優曇華院・イナバ"],
+    "DominionName": "大使(海辺)",
+    "Description": "あなたの手札１枚を公開する。 公開したカードと同じカード最大２枚までを、 あなたの手札からサプライに戻す。 その後、他のプレイヤー全員は、 それと同じカードを１枚づつ獲得する。"
+  },
+  {
+    "Name": "知識と歴史の半獣「上白沢慧音」",
+    "Series": "東方永夜抄編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 1,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["上白沢慧音"],
+    "DominionName": "Storeroom(暗黒時代)",
+    "Description": "手札から好きな枚数を捨て札にする。 捨て札にしたカード１枚につき＋１カードを引く。 手札から好きな枚数を捨て札にする。 捨て札にしたカード１枚につき＋①。"
+  },
+  {
+    "Name": "夜雀の怪「ミスティア・ローレライ」<br/>",
+    "Series": "東方永夜抄編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["ミスティア・ローレライ"],
+    "DominionName": "貧民街(陰謀)",
+    "Description": "あなたの手札を公開する。 あなたの手札にアクションカードが１枚もない場合、 ＋２カードを引く。"
+  },
+  {
+    "Name": "五つの難題",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": true,
+    "Characters": ["蓬莱山輝夜"],
+    "DominionName": "馬上槍試合(収穫祭)",
+    "Description": "すべてのプレイヤーは、自分の手札から 「永遠亭～月下の祭礼～」１枚を公開してもよい。 あなたがそうした場合、そのカードを捨て札にし、 褒賞カード１枚（褒賞の山札から） または 「迷いの竹林～路傍の石仏～」１枚を獲得し、 それをあなたのデッキの一番上に置く。 他のプレイヤーが誰も公開しなかった場合、 ＋１　カードを引く、 ＋①。"
+  },
+  {
+    "Name": "永夜返し",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 1,
+        "IsAttack": false,
+        "IsReaction": true,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 1,
+    "CostIncrement": 3,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["蓬莱山輝夜"],
+    "DominionName": "馬商人(収穫祭)",
+    "Description": "カード２枚を捨て札にする。 他のプレイヤーがアタックカードを使ったとき、 あなたはこのカードを手札から脇に置いてもよい。 そうした場合、あなたの次のターンの開始時に ＋１　カードを引く。 そしてこのカードをあなたの手札に戻す。"
+  },
+  {
+    "Name": "蠢符「リトルバグストーム」",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["リグル・ナイトバグ"],
+    "DominionName": "Scavenger(暗黒時代)",
+    "Description": "あなたのデッキをあなたの捨て札に置いてもよい。 あなたの捨て札のカードすべてを見て、 その中の１枚をあなたのデッキの一番上に置く。"
+  },
+  {
+    "Name": "蓬莱の人の形「藤原妹紅」",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["藤原妹紅"],
+    "DominionName": "Fortress(暗黒時代)",
+    "Description": "あなたはこのカードを廃棄したとき、 このカードを手札に加える。"
+  },
+  {
+    "Name": "魅惑の新酒肴「焼き八目鰻」",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 1,
+        "IsAction": false,
+        "IsResource": true,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": [],
+    "DominionName": "石切場(繁栄)",
+    "Description": "① このカードがプレイエリアに出ているかぎり、 アクションカードのコストは②少なくなる。 ただし、０未満にはならない。"
+  },
+  {
+    "Name": "夢幻の紅魔チーム",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["十六夜咲夜", "レミリア・スカーレット"],
+    "DominionName": "よろずや(異郷)",
+    "Description": "「奉納米」１枚を獲得する。 あなたのデッキの一番上を見て、 そのカードを捨て札にするか、そのまま戻すかをする。 あなたの手札が５枚になるまでカードを引く。 あなたは手札から リソースカード以外のカード１枚を廃棄してもよい。"
+  },
+  {
+    "Name": "幽冥の住人チーム",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 1,
+        "IsAttack": false,
+        "IsReaction": true,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["魂魄妖夢", "西行寺幽々子"],
+    "DominionName": "交易人(異郷)",
+    "Description": "自分の手札のカード１枚を廃棄する。 そのカードのコスト数と同じ枚数の「奉納米」を獲得する。 あなたがカード１枚を獲得したとき、 あなたはこのカードを手札から公開してもよい。 そうした場合、獲得するカードの代わりに 「奉納米」１枚を獲得する。"
+  },
+  {
+    "Name": "夜雀「真夜中のコーラスマスター」",
+    "Series": "東方永夜抄編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["ミスティア・ローレライ"],
+    "DominionName": "WanderingMinstrel(暗黒時代)",
+    "Description": "あなたのデッキの上から３枚のカードを公開する。 その中のアクションカードを好きな順番でデッキの上に戻し、 公開した残りのカードを捨て札にする。"
+  },
+  {
+    "Name": "永遠と須臾の罪人「蓬莱山輝夜」",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 1,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["蓬莱山輝夜"],
+    "DominionName": "宝物庫(海辺)",
+    "Description": "あなたがこのカードをプレイエリアから捨て札にするとき、 あなたがこのターン勝利点カードを購入していない場合、 このカードをデッキの一番上に置いてもよい。"
+  },
+  {
+    "Name": "禁呪の詠唱チーム",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["霧雨魔理沙", "アリス・マーガトロイド"],
+    "DominionName": "Graverobber(暗黒時代)",
+    "Description": "次のうち１つを選ぶ：  「廃棄置き場にあるコスト③～⑥のカード１枚を獲得し、 あなたのデッキの一番上に置く。」；  「あなたの手札のアクションカード１枚を廃棄し、 廃棄したカードよりも コストが最大③まで多いカード１枚を獲得する。」"
+  },
+  {
+    "Name": "新史「新幻想史‐ネクストヒストリー‐」",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["上白沢慧音"],
+    "DominionName": "鉱山(基本)",
+    "Description": "あなたの手札のリソースカード１枚を廃棄する。 廃棄したリソースカードよりも コストが最大③多いリソースカード１枚を獲得し、 あなたの手札に加える。"
+  },
+  {
+    "Name": "月の頭脳「八意永琳」",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["八意永琳"],
+    "DominionName": "Count(暗黒時代)",
+    "Description": "次のうち１つを選ぶ：  「カード２枚を捨て札にする。」；  「あなたの手札のカード１枚をあなたのデッキの一番上に置く。」；  「「お賽銭」１枚を獲得する。」 次のうち１つを選ぶ： 「＋③。」； 「あなたの手札を廃棄する。」； 「「迷いの竹林～路傍の石仏～」１枚を獲得する。」"
+  },
+  {
+    "Name": "天呪「アポロ１３」",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 3,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": true,
+    "CanWinPrize": false,
+    "Characters": ["八意永琳"],
+    "DominionName": "拷問人(陰謀)",
+    "Description": "他のプレイヤーはそれぞれ、 次のうち１つを選ぶ： 「カードを２枚捨て札にする。」； 「マイナスカード１枚を獲得し、 自分の手札に加える。」"
+  },
+  {
+    "Name": "人間の里",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 1,
+        "IsAction": false,
+        "IsResource": true,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": [],
+    "DominionName": "船着場(海辺)",
+    "Description": "現在と次のターンの開始時に： ＋２　カードを引く ＋１　カードを購入"
+  },
+  {
+    "Name": "「パゼストバイフェニックス」",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["藤原妹紅"],
+    "DominionName": "Rogue(暗黒時代)",
+    "Description": "廃棄置き場にコストが③～⑥のカードがある場合、 その中の１枚を獲得する。 無い場合、他のプレイヤーは全員 自分のデッキの上から２枚のカードを公開し、 その中のコストが③～⑥のカード１枚を廃棄し、 残りを捨て札にする。"
+  },
+  {
+    "Name": "蓬莱の薬",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 1,
+        "IsAction": false,
+        "IsResource": true,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": true,
+    "CanWinPrize": false,
+    "Characters": [],
+    "DominionName": "不正利得(異郷)",
+    "Description": "① このカードを使用するとき、 あなたは「お賽銭」１枚を獲得して 手札に加えてもよい。 このカードを獲得するとき、 他のプレイヤーは全員、 マイナスカード１枚を獲得する。"
+  },
+  {
+    "Name": "歴史喰い「上白沢慧音」",
+    "Series": "東方永夜抄編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["上白沢慧音"],
+    "DominionName": "Rebuild(暗黒時代)",
+    "Description": "カード１枚を指定する。 あなたのデッキから指定したカード以外の 勝利点カード１枚が公開されるまで、 カードを公開する。 公開した他のカードは捨て札にする。 その勝利点カードを廃棄し、 そのカードよりもコストが 最大③多い勝利点カード１枚を獲得する。"
+  },
+  {
+    "Name": "幻想の結界チーム",
+    "Series": "東方永夜抄編",
+    "Cost": 6,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["博麗霊夢", "八雲紫"],
+    "DominionName": "Altar(暗黒時代)",
+    "Description": "あなたの手札１枚を廃棄する。 コスト⑤以下のカード１枚を獲得する。"
+  }
+]

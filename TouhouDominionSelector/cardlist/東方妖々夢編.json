@@ -1,0 +1,708 @@
+﻿[
+  {
+    "Name": "冬の忘れ物「レティ・ホワイトロック」",
+    "Series": "東方妖々夢編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["レティ・ホワイトロック"],
+    "DominionName": "村落(収穫祭)",
+    "Description": "あなたはカードを１枚捨て札にしてもよい。 そうした場合、+１アクション  あなたはカードを１枚捨て札にしてもよい。  そうした場合、+１カードを購入 ※備考 カード記載順通り、 +１カードを引く、+１アクションを処理後、 ・「+１アクション」を得る為にカードを１枚捨て札にするか、 ・「+１カードを購入」を得る為にカードを１枚捨て札にするか、 ・両方の効果を得る為にカードを２枚捨て札にするか、 ・１枚も捨て札にしない。 上記の何れかのみ選択出来る。"
+  },
+  {
+    "Name": "式符「飛翔晴明」",
+    "Series": "東方妖々夢編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 2,
+        "IsAttack": false,
+        "IsReaction": false,
+        "IsStaying": true
+      }
+    ],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["橙"],
+    "DominionName": "停泊所(海辺)",
+    "Description": "あなたの手札のカード１枚を、裏向きにして脇に置く。  あなたの次のターンの開始時に、 そのカードをあなたの手札へ加える。 ※備考 ＋１カードを引く、＋１アクションを処理後 手札から一枚カードを選び、脇に裏向きに置く。 忘れないよう、判断しやすいように脇に置くカードは 『式符「飛翔晴明」』の上に置く。 脇に置くカードは他プレイヤーは見る事は出来ない。 脇にカードを置くことは強制であり、 カードを使用した時点で必ず実行しなければならない。 『式符「飛翔晴明」』と脇に置いたカードは、 あなたの次のターンの開始時の、 脇に置いたカードを手札に加える時まで脇に置いておく。 『式符「飛翔晴明」』のカード自身は、 そのターンのクリーンアップフェイズに捨て札になる。"
+  },
+  {
+    "Name": "騒霊キーボーティスト「リリカ・プリズムリバー」",
+    "Series": "東方妖々夢編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 3,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["リリカ・プリズムリバー"],
+    "DominionName": "",
+    "Description": "あなたの手札からカード１枚を選び、あなたの山札の一番上に置く。 ※備考 +３カードを引くを処理後、 上記の効果で新たに得たカードを含めた 全ての手札の中から一枚を選び、山札の一番上に置く。"
+  },
+  {
+    "Name": "罔両「八雲紫の神隠し」",
+    "Series": "東方妖々夢編",
+    "Cost": 2,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["八雲紫"],
+    "DominionName": "礼拝堂(基本)",
+    "Description": "あなたの手札から最大４枚までのカードを廃棄する。 ※備考 このカードの効果の解決時には、 このカードは既に手札になく、 効果の対象にする事（廃棄する事）は出来ない。 （手札に使用した物とは別の『罔両「八雲紫の神隠し」』 　がある場合は、そのカードは廃棄対象に出来る）"
+  },
+  {
+    "Name": "氷の妖怪「チルノ」",
+    "Series": "東方妖々夢編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["チルノ"],
+    "DominionName": "移動動物園(収穫祭)",
+    "Description": "あなたの手札を公開する。  重複しているカードが１枚もない場合、 　＋３カードを引く。  それ以外の場合、 　＋１カードを引く。 ※備考 手札が０枚の場合も、 「同名のカードを複数枚持っていない」 とみなし、+３カードを引く　の効果が適用される。 同キャラクターのカードであっても完全な同名のカードでなければ 別のカードとみなす。 （例：博麗神社の巫女さん「博麗霊夢」 　　　と 　　　楽園の素敵な巫女「博麗霊夢」 　　　は別のカードとみなす）"
+  },
+  {
+    "Name": "七色の人形使い「アリス・マーガトロイド」",
+    "Series": "東方妖々夢編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["アリス・マーガトロイド"],
+    "DominionName": "密輸人(海辺)",
+    "Description": "あなたの右隣のプレイヤーが、前のターンに獲得した コストが⑥以下のカードと同一のカード１枚を獲得する。 ※備考 右隣のプレイヤーの直近のターン （あなたが複数のターンを連続で実行していても） を参照する。 そのプレイヤーが１枚もカードを獲得していない、 コスト６以下のカードを獲得していない場合、 『七色の人形使い「アリス・マーガトロイド」』 の効果でカードを獲得する事は出来ない。 そのプレイヤーがコスト６以下のカードを複数枚獲得していた場合、 その複数のカードの中から一枚を選んで、 同じカードを場のサプライから獲得出来る。 （サプライから獲得しなければならない。 　また、右隣のプレイヤーが購入したカードでも 　他の方法で獲得したカードでも獲得できる。）"
+  },
+  {
+    "Name": "騒霊トランペッター「メルラン・プリズムリバー」",
+    "Series": "東方妖々夢編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 3,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["メルラン・プリズムリバー"],
+    "DominionName": "倉庫(海辺)",
+    "Description": "カードを３枚捨て札にする。 ※備考 ＋３カードを引く、+１アクションを処理後、 手札からカードを３枚捨て札にする（強制） 捨て札にするカードはこのカードの効果で引いたカード、 元々手札にあったカード全ての中から選んで捨て札に出来る。"
+  },
+  {
+    "Name": "半分幻の庭師「魂魄妖夢」",
+    "Series": "東方妖々夢編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["魂魄妖夢"],
+    "DominionName": "見張り(海辺)",
+    "Description": "あなたの山札の上から３枚のカードを見て、 その中の１枚を廃棄し、その中の１枚を捨て札にする。 残り１枚を、あなたの山札の一番上に置く。 ※備考 あなたの山札が残り２枚以下の場合、 残りの山札をすべて見た後、 捨て札をシャッフルし新たな山札を作り、 そこから不足分の枚数のカードを見る。 あなたは３枚全てのカードを見た後で、 カード記載順通り、 １、廃棄するカード、 ２、捨て札にするカード、 ３、山札に戻すカード の順に決めなければならない。（強制） 山札と捨て札の枚数が２枚以下の場合は、 （山札を作り直しても３枚以上にならない場合） カード記載順に効果を適用する。 （例：山札捨て札の枚数が合計２枚の場合、 　２枚を見て、廃棄するカードを選び、 　捨て札にするカードを選んで終了する。）"
+  },
+  {
+    "Name": "式輝「プリンセス天狐‐Illusion‐」",
+    "Series": "東方妖々夢編",
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 1,
+        "IsAttack": false,
+        "IsReaction": true,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": true,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["八雲藍"],
+    "DominionName": "望楼(繁栄)",
+    "Description": "あなたの手札が６枚になるまでカードを引く。 あなたがカード１枚を獲得するとき、 このカードを手札 から公開してもよい。 そうした場合、そのカードを廃棄するか、 あなたの山札の一番上に置く。 ※備考 あなたがこのカードを使うとき、 既に手札が６枚以上ある場合はカードを引くことが出来ない。 あなたが「カードを１枚獲得する」時、 このカードを公開しても良い。 公開した場合、 獲得するカードを廃棄、 または、山札の一番上に置く事が出来ます。 「カードを１枚獲得する」タイミングであれば、 いつでも公開することが出来る。 (例えば、カードの購入時、別のカード効果によるカード獲得時 　対戦相手のカード効果によるマイナスカード獲得時等々。） カードを公開の処理でカードを公開しても、 手札からは移動しない。 複数の対戦相手のターンに公開した後でも、 自分のターンでアクションカードとして使用し、 カードを６枚引く事も出来る。"
+  },
+  {
+    "Name": "割と困ったちゃん「八雲紫」",
+    "Series": "東方妖々夢編 PRカード,
+    "Cost": 3,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["八雲紫"],
+    "DominionName": "詐欺師(陰謀)",
+    "Description": "他のプレイヤーは全員、自分の山札の一番上のカードを廃棄し、 廃棄したカードと同コストの貴方が選んだカード１枚を獲得する。"
+  },
+  {
+    "Name": "寒符「リンガリングコールド」",
+    "Series": "東方妖々夢編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 2,
+        "IsAttack": false,
+        "IsReaction": false,
+        "IsStaying": true
+      }
+    ],
+    "ActionIncrement": 1,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["レティ・ホワイトロック"],
+    "DominionName": "隊商(海辺)",
+    "Description": "あなたの次のターンの開始時に、 +１カードを引く ※備考 このカードをアクションフェイズで使用した時は、 ＋１カードを引く ＋１アクション のみを処理し、持続カードとして場に置いておきます。 あなたの次のターン開始時に 「あなたの次のターンの開始時に、+１カードを引く」 を処理します。 「あなたの次のターンの開始時に、+１カードを引く」 の効果を処理したターンのクリーンアップフェイズに 捨て札に送られます。"
+  },
+  {
+    "Name": "春を運ぶ妖精「リリーホワイト」",
+    "Series": "東方妖々夢編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["リリーホワイト"],
+    "DominionName": "鉱山の村(陰謀)",
+    "Description": "あなたは、このカードを即座に廃棄してもよい。 そうした場合＋② ※備考 あなたは他のアクションや次のフェイズを実行する前に、 このカードを廃棄するかどうかを決めなければなりません。 このカードを廃棄するかどうかに関わらず、 ＋１カードを引く ＋２アクション の効果は実行出来ます。 このカードを即座に廃棄した場合は、 ＋② の効果も加わります。"
+  },
+  {
+    "Name": "騒霊ヴァイオリニスト「ルナサ・プリズムリバー」",
+    "Series": "東方妖々夢編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 1,
+    "CostIncrement": 1,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["ルナサ・プリズムリバー"],
+    "DominionName": "橋(陰謀)",
+    "Description": "このターン、 すべてのカード（プレイヤーの手札も含む）のコストは①少なくなる。 しかし０未満にはならない。 ※備考 このターンのみ、全てのカードのコストは１少なくなります。 （サプライ、各プレイヤーの手札、山札、捨て札も含む） カード購入時は勿論、 コストを参照するあらゆる効果に対して影響を与えます。 この効果は累積しますが、 （例えば、騒霊ヴァイオリニスト「ルナサ・プリズムリバー」 　を二枚使用した場合は全てのカードのコストが２下がる） コスト０未満にはならない。 （０にはなります）"
+  },
+  {
+    "Name": "幽明結界",
+    "Series": "東方妖々夢編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      },
+      {
+        "Tag": 2,
+        "IsAction": false,
+        "IsResource": false,
+        "IsVictory": true
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": [],
+    "DominionName": "島(海辺)",
+    "Description": "＋２勝利点 このカードと、あなたの手札にあるもう１枚のカードを脇に置く。 ゲーム終了時に、 このカードの効果で脇に置いた２枚を、あなたの山札へ戻す。 ※備考 このカードは、 アクションカードと勝利点カードの両方として扱います。 ２人プレイ時は８枚、 ３～４人プレイ時は１２枚をサプライにセットしてゲームを開始します。 『幽明結界』と脇に置くカードは、 表向きに置いておきます。 このカードの効果で脇に置いたカードは ゲーム終了時まで脇に置いたままになります。 捨て札をシャッフルする際に混ぜてはいけません。 ゲーム終了時に山札に戻し、勝利点計算に含める事が出来ます。 このカードを使うときに自分の手札が残り1枚も無い場合、 『幽明結界』だけを脇に置きます。 （他に手札がある場合は、 　『幽明結界』のみを脇に置く事は出来ません）"
+  },
+  {
+    "Name": "獄界剣「二百由旬の一閃」",
+    "Series": "東方妖々夢編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["魂魄妖夢"],
+    "DominionName": "巾着切り(海辺)",
+    "Description": "他のプレイヤーは全員、「お賽銭」１枚を捨て札にする  （手札に「お賽銭」がないプレイヤーは、手札を公開する）。 ※備考 他のプレイヤーは、 『お賽銭』のみを1枚だけ捨て札にしなければなりません。 『お賽銭』が手札に無い場合は、 他のプレイヤー全員が確認出来るように、 自分の手札を公開しなければなりません。"
+  },
+  {
+    "Name": "桜符「完全なる墨染の桜」",
+    "Series": "東方妖々夢編",
+    "Cost": 4,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": true,
+    "CanWinPrize": false,
+    "Characters": ["西行寺幽々子"],
+    "DominionName": "海の妖婆(海辺)",
+    "Description": "他のプレイヤー全員は、自分の山札の一番上のカードを捨て札にし、 その後、マイナスカード１枚を獲得し、 自分の山札の一番上に置く。 ※備考 山札に1枚もカードが残っていないプレイヤーは、 捨て札をシャッフルし直して、新たな山札を作り、 そこから捨て札にする。 シャッフルし直すカードも無く、山札が１枚も無い場合は、 捨て札をしない。 （マイナスカードは獲得する） 山札の最後の１枚を捨て札にした場合も、 獲得したマイナスカードを山札の一番上として置く。 （山札を作り直す必要はない） サプライのマイナスカードの残り枚数が足りない場合、 『桜符「完全なる墨染の桜」』を使用したプレイヤーの 左隣のプレイヤーからターンの進行順に マイナスカードを獲得していきます。"
+  },
+  {
+    "Name": "楽園の素敵な巫女「博麗霊夢」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["博麗霊夢"],
+    "DominionName": "会計所(繁栄)",
+    "Description": "あなたの捨て札のカードすべてを確認し、 その中から好きな枚数の「お賽銭」を公開し、 それをあなたの手札に加える。 ※備考 このカードの効果は、 通常はルールで許されていない、 自分の捨て札のカード全ての確認を行います。 このカードを使ったときのみ、 自分の捨て札全ての確認を行えます。 自分の捨て札すべてを他のプレイヤーに見せる必要はありませんが、 手札に加える「お賽銭」は見せなければなりません。 「お賽銭」を手札に加えた後は、 捨て札は好きな順番に入れ替える事が出来ます。"
+  },
+  {
+    "Name": "普通の黒魔術少女「霧雨魔理沙」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["霧雨魔理沙"],
+    "DominionName": "貢物(陰謀)",
+    "Description": "あなたの左隣のプレイヤーは、 自分の山札の上から２枚のカードを公開し、捨て札にする。 あなたは、その２枚のカードのうち、異なる名前のカードごとに… アクションカードの場合、+２アクション  リソースカードの場合、+② 勝利点カードの場合、+２カードを引く  （カード名が同一の場合、そのカードの種類のボーナス１つのみを得る。） ※備考 あなたの左隣のプレイヤーの山札の残り枚数が２枚未満の場合、 山札の全てのカードを公開した後、 捨て札をシャッフルして（公開中のカードは混ぜずに） 新たな山札を作り、残りの必要枚数を公開します。 その後に、そのプレイヤーは公開したカードを捨て札に置きます。 それでも２枚に満たない場合、公開できるかぎりのカードを公開します。 ～公開されたカードが複数の効果を持つ場合～ 例：左隣のプレイヤーが公開したカードが 『奉納米』（リソース）、『花見は神社で』（リソース、勝利点） の場合、あなたは 「+④」「+２カードを引く」 を得ます。 ～公開されたカードが同名の場合～ 例：左隣のプレイヤーが公開したカードが 『奉納米』（リソース）、『奉納米』（リソース）、 の場合、あなたは 「+②」 のみを得ます。 ～公開されたカードがマイナスカードの場合～ 何も得られません。"
+  },
+  {
+    "Name": "完全で瀟洒な従者「十六夜咲夜」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 2,
+        "IsAttack": false,
+        "IsReaction": false,
+        "IsStaying": true
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["十六夜咲夜"],
+    "DominionName": "前哨地(海辺)",
+    "Description": "あなたは、このターンのクリーンアップフェイズに、 カードを（５枚ではなく）３枚しか引くことができない。 このターンの後に、追加の１ターンを得る。 この効果で、あなたは追加ターンを、 １ターンまでしか得ることができない。 ※備考 このカードを複数枚同時に使用しても、 得られる追加のターンは１ターンのみです。 追加のターンは、開始時の手札が３枚しかないこと、 追加ターン中にもう一度 『完全で瀟洒な従者「十六夜咲夜」』を使用しても 追加のターンを得られない事以外は、 通常のターンと同じ処理をします。 追加のターンの終了時まで （クリーンアップフェイズでは無く、 　全てのフェイズが終了した後まで） 『完全で瀟洒な従者「十六夜咲夜」』は自分の手前に置いておきます。 このカードを他の 「次のターンの開始時に処理」する持続カードと一緒に使用した場合、 『完全で瀟洒な従者「十六夜咲夜」』の効果で追加されたターンを 次のターンとして扱います。 例： 『完全で瀟洒な従者「十六夜咲夜」』 と 『寒符「リンガリングコールド」』 を使用したターンが終了し、 追加ターン開始時に、 『寒符「リンガリングコールド」』の効果で ＋１カードを引きます。 追加ターンのクリーンアップフェイズで 『寒符「リンガリングコールド」』は捨て札になり、 クリーンアップ後のターン終了時に 『完全で瀟洒な従者「十六夜咲夜」』も捨て札へ送られます。"
+  },
+  {
+    "Name": "すきま妖怪の式の式「橙」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 2,
+        "IsAction": false,
+        "IsResource": false,
+        "IsVictory": true
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["橙"],
+    "DominionName": "公爵(陰謀)",
+    "Description": "あなたが所有する「マヨヒガ～寂れた神棚～」１枚につき、勝利点１になる。 ※備考 ２人プレイ時は８枚、 ３～４人プレイ時は１２枚をサプライにセットしてゲームを開始します。 「マヨヒガ～寂れた神棚～」は 「霧の湖～湖畔の祠～」でも代用可能です。"
+  },
+  {
+    "Name": "咒詛「魔彩光の上海人形」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 2,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["アリス・マーガトロイド"],
+    "DominionName": "幽霊船(海辺)",
+    "Description": "手札を４枚以上持っている他のプレイヤーは全員、 手札枚数が３枚になるまで、 手札のカードを自分の山札の上に置く。 ※備考 他のプレイヤーは全員、 自分の山札に置くカードと、置く順番を選びます。 手札が３枚以下のプレイヤーには効果がありません。 自分の山札に１枚もカードが残っていないプレイヤーは、 捨て札をシャッフルせず、 （山札を作り直す必要はなく） 手札から置くカードだけが自分の山札となります。"
+  },
+  {
+    "Name": "大合葬「霊車コンチェルトグロッソ」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 2,
+    "DrawingCardCount": 1,
+    "BuyingIncrement": 0,
+    "CostIncrement": 1,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["ルナサ・プリズムリバー", "メルラン・プリズムリバー", "リリカ・プリズムリバー"],
+    "DominionName": "バザー(海辺)",
+    "Description": ""
+  },
+  {
+    "Name": "幽冥楼閣の亡霊少女「西行寺幽々子」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["西行寺幽々子"],
+    "DominionName": "探検家(海辺)",
+    "Description": "あなたは、自分の手札から 「白玉楼～春めく仏間～」１枚を公開してもよい。 そうした場合、 「御神酒」１枚を獲得し、自分の手札に加える。 公開しなかった場合、 「奉納米」１枚を獲得し、自分の手札に加える。 ※備考 あなたは「白玉楼～春めく仏間～」が手札にあっても、 公開するかどうかは自身で選べます。 公開した場合は 「御神酒」を１枚サプライから獲得し、 公開しなかった場合は 「奉納米」を１枚サプライから獲得します。 獲得したカードは自分の手札に加えられるため、 同一ターンで使用する事が出来ます。 「白玉楼～春めく仏間～」は 「紅魔館～豪奢な祭壇～」でも代用可能です。"
+  },
+  {
+    "Name": "すきま妖怪の式「八雲藍」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 2,
+        "IsAttack": false,
+        "IsReaction": false,
+        "IsStaying": true
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["八雲藍"],
+    "DominionName": "策士(海辺)",
+    "Description": "あなたの手札をすべて捨て札にする。 この方法で１枚以上のカードを捨て札にした場合、 次のターンの開始時に、  +５カードを引く、  +１カードを購入、  +１アクション。 ※備考  +５カードを引く、  +１カードを購入、  +１アクション は、あなたの次のターンの開始時に処理されます。 このカードを使用したターンの終了時に カードを５枚多く引く事は出来ません。 また、使用した際は持続カードとして自分の前に置いておき 次のターン （ +５カードを引く、  +１カードを購入、  +１アクション を処理したターン） のクリーンアップフェイズで捨て札に送る。"
+  },
+  {
+    "Name": "神隠しの主犯「八雲紫」",
+    "Series": "東方妖々夢編",
+    "Cost": 5,
+    "Kinds": [
+      {
+        "Tag": 0,
+        "IsAction": true,
+        "IsResource": false,
+        "IsVictory": false
+      }
+    ],
+    "Effects": [
+      {
+        "Tag": 0,
+        "IsAttack": true,
+        "IsReaction": false,
+        "IsStaying": false
+      }
+    ],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 2,
+    "CanScrap": false,
+    "CanForceCurse": true,
+    "CanWinPrize": false,
+    "Characters": ["八雲紫"],
+    "DominionName": "道化師(収穫祭)",
+    "Description": "他のプレイヤーは全員、自分の山札の一番上のカードを捨て札にする。 そのカードが勝利点カードの場合、 そのプレイヤーはマイナスカード１枚を獲得する。 勝利点以外のカードの場合、 捨て札にしたカードと同じカードを そのプレイヤーが獲得するか、 あなたが獲得するかをあなたが選ぶ。 ※備考 自分の山札のカードが１枚も無いプレイヤーは全員、 自分の山札をシャッフルして新たな山札を作り、 その山札からカード１枚を捨て札にします。 捨て札も無く、新たな山札が作れないプレイヤーは、 捨て札をしません。 カード１枚を捨て札にしたプレイヤーは 「そのカードが勝利点カードの場合はマイナスカード１枚を獲得する」 それ以外のカードの場合は、 「そのプレイヤーは捨て札にしたカードと同じカード１枚を獲得する」 か、 「そのプレイヤーが捨て札にしたカードと同じカード１枚をあなたが獲得する」 かを、あなたが選択して実行します。 獲得する同じカードやマイナスカードはサプライから獲得し、 獲得したプレイヤーの捨て札に置きます。 サプライにマイナスカードや捨て札にしたカードが残っていない場合、 「そのカードが勝利点カードの場合はマイナスカード１枚を獲得する」 「そのプレイヤーは捨て札にしたカードと同じカード１枚を獲得する」 「そのプレイヤーが捨て札にしたカードと同じカード１枚をあなたが獲得する」 は実行されません。 サプライの残りカード枚数が少なく、足りなくなる場合は、 ターンの進行順に解決します。 勝利点を含む複数のカード種類を持つカード、 例えば『花見は神社で』などの場合、 そのカードは勝利点とみなします。"
+  },
+  {
+    "Name": "花見は神社で",
+    "Series": "東方妖々夢編",
+    "Cost": 6,
+    "Kinds": [
+      {
+        "Tag": 1,
+        "IsAction": false,
+        "IsResource": true,
+        "IsVictory": false
+      },
+      {
+        "Tag": 2,
+        "IsAction": false,
+        "IsResource": false,
+        "IsVictory": true
+      }
+    ],
+    "Effects": [],
+    "ActionIncrement": 0,
+    "DrawingCardCount": 0,
+    "BuyingIncrement": 0,
+    "CostIncrement": 0,
+    "CanScrap": false,
+    "CanForceCurse": false,
+    "CanWinPrize": false,
+    "Characters": ["博麗霊夢", "霧雨魔理沙", "十六夜咲夜", "魂魄妖夢", "西行寺幽々子"],
+    "DominionName": "ハーレム(陰謀)",
+    "Description": "リソース　２ 勝利点　２ ※備考 ２人プレイ時は８枚、 ３～４人プレイ時は１２枚をサプライにセットしてゲームを開始します。 このカードは、リソースカードと勝利点カードの両方としてみなします。 このカードは「奉納米」と同じように②のリソースカードとして使用できます。 ゲームの終了時には、勝利点２点としてカウントされます。"
+  }
+]
