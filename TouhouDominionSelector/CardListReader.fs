@@ -17,6 +17,7 @@ module CardListReader =
         let read dirPath =
             if dirPath |> Directory.Exists |> not then dirPath |> sprintf "ディレクトリが存在しません : %s" |> invalidArg "dirPath"
             dirPath |> Directory.EnumerateFiles |> Seq.collect (fun filePath ->
+                printfn "%s を読み込みます。" filePath
                 let text = File.ReadAllText(filePath, Text.Encoding.UTF8)
-                JsonConvert.DeserializeObject<Card[]>(text, UnionConverter<CardEffect>()))
+                JsonConvert.DeserializeObject<Card[]>(text, UnionConverter<CardEffect>(), UnionConverter<CardKind>()))
             |> Seq.toList
